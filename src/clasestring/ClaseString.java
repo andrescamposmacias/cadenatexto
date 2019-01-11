@@ -84,22 +84,17 @@ public class ClaseString {
                 + s2.contains(aBuscar));
 
         //probar métodos endsWith, startsWith, isEmpty
-        String Str = "Prueba de fe";
-        boolean valor;
+        String Str = "Prueba de fe";       
         
         //comprueba la ultima palabra
-        valor = Str.endsWith("fe");
-        System.out.println("El valor de endsWith que devuelve es = " + valor);
+        System.out.println("El valor de endsWith que devuelve es = " + Str.endsWith("fe"));
 
-        valor = Str.endsWith("prueb");
-        System.out.println("El valor de endsWith que devuelve es = " + valor);
+        System.out.println("El valor de endsWith que devuelve es = " + Str.endsWith("Fe"));
         
         //comprueba la primera palabra
-        valor = Str.startsWith("fe");
-        System.out.println("El valor de startsWith que devuelve es = " + valor);
+        System.out.println("El valor de startsWith que devuelve es = " + Str.startsWith("Prueba"));
 
-        valor = Str.startsWith("Prueba");
-        System.out.println("El valor de startsWith que devuelve es = " + valor);
+        System.out.println("El valor de startsWith que devuelve es = " + Str.startsWith("prue"));
         
         //comprueba si esta vacio
         Str = "";
